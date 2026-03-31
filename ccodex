@@ -9,5 +9,5 @@ ccodex(){
 		 -e COLORTERM=truecolor \
 		 -e LANG="${LANG:-C.UTF-8}" \
 		 -e LC_ALL="${LC_ALL:-C.UTF-8}" \
-		 codex-arena:testing codex --sandbox danger-full-access -a untrusted "$@"
+		 codex-arena:localbuild codex --sandbox danger-full-access -a untrusted "$@"
 }
